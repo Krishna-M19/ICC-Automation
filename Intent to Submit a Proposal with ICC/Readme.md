@@ -95,8 +95,8 @@ The Google Sheet includes the following columns:
 20. Is there a limit to the number of proposals?
 21. Are you planning on submitting through a research institute?
 22. Are you planning on incorporating a Michigan Tech shared facility?
-23. Thread ID (for duplicate prevention)
-24. Spreadsheet Created (checkbox for tracking)
+23. Thread ID (for duplicate prevention)  
+24. Spreadsheet Created (checkbox for tracking) //used for ICC Checklist project
 
 
 ## Notes
