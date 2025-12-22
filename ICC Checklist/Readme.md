@@ -159,7 +159,7 @@ The application runs every 1 hour via time-driven trigger to:
 - Create task spreadsheets for new proposals
 - Update holidays in existing spreadsheets (only if changed)
 
-Manual Execution - You can also manually run `runAll()` from the Apps Script editor to:
+Manual Execution - You can also manually run `runAll()` from the Apps Script editor
 
 ## Technical Notes
 
