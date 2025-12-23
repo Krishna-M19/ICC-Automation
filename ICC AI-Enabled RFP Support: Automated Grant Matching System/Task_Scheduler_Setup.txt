@@ -1,0 +1,45 @@
+Step-by-Step Windows Task Scheduler Setup
+
+Prerequisites Check
+First, make sure you have:
+The system installed and tested manually
+Gmail API credentials in config/icc-intake_credentials.json
+The batch file run_rfp_production.bat (created by setup.py)
+
+
+Step 1: Open Task Scheduler
+Press Windows + R to open Run dialog
+Type taskschd.msc and press Enter
+Or search "Task Scheduler" in Start menu
+
+Step 2: Create Basic Task
+In Task Scheduler, click "Create Basic Task" in the right panel
+Name: RFP Production System
+Description: Automated RFP matching and delivery for MTU faculty
+Click Next
+
+Step 3: Set Trigger (When to Run)
+Select "Daily"
+Click Next
+
+Start date: Today's date
+Start time: 09:00:00 AM (recommended)
+Recur every: 1 days
+Click Next
+
+Step 4: Set Action (What to Run)
+Select "Start a program"
+Click Next
+Program/script: Browse to your run_rfp_production.bat file
+Example: C:\path\to\RFP_Production_System\run_rfp_production.bat
+Click Next
+
+Step 5: Review and Finish
+Review all settings
+Check "Open the Properties dialog for this task when I click Finish"
+Click Finish
+
+
+Step 6: Test the Task
+Right-click your task in the Task Scheduler Library
+Select "Run"
